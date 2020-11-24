@@ -10,9 +10,8 @@ Batocera: nadenislamarre
 <!-- Modos de Vistas en sistema -->
 <subset name="   Systemview" displayName="${systemViewName}">
 <include name="Carusel arcade grande">./art/systemview/arcade grande no scanline vertical.xml</include>
-<include name="Carusel arcade grande logos tickets">./art/systemview/arcade grande vertical tickets.xml</include>
-<include name="Ruleta left glass scrach logo tickets">./art/systemview/ruleta left glass scrach.xml</include>
-<include name="Ruleta left glass logo tickets video  rotation">./art/systemview/ruleta left glass scrach video rotation.xml</include>
+<include name="Ruleta left glass scrach">./art/systemview/ruleta left glass scrach.xml</include>
+<include name="Ruleta left glass video  rotation">./art/systemview/ruleta left glass scrach video rotation.xml</include>
 <include name="Carousel Coin upss">./art/systemview/Coin upss No Scanline.xml</include>
 <include name="Carousel CoinOPS NEXT Darck Cabin">./art/systemview/Coin upss next glas scratch.xml</include>
 <include name="Hyperspin">./art/systemview/carousel right.xml</include>
@@ -29,6 +28,16 @@ Batocera: nadenislamarre
 <subset name="   Show  Characters" displayName="${subset.   Show  Characters}">
    <include name="None" displayName="${yes}">./art/sistemas/storyboards/no Activate characters.xml</include>
     <include name="yes" displayName="${yes}">./art/sistemas/storyboards/characters.xml</include>
+</subset>
+
+
+<!--logos-->
+<subset name="   Change Logos on carousel" displayName="${subset.   Change Logos on carousel}">
+   <include name="Ticket" displayName="${no}">./art/sistemas/storyboards/logos/ticket.xml</include>
+ <include name="Silverring" displayName="${no}">./art/sistemas/storyboards/logos/silverring.xml</include>  
+ <include name="Marquee" displayName="${no}">./art/sistemas/storyboards/logos/marquee.xml</include> 
+ <include name="Cartridge Nes" displayName="${no}">./art/sistemas/storyboards/logos/nes.xml</include>
+ <include name="Consoles" displayName="${no}">./art/sistemas/storyboards/logos/consoles.xml</include>     
 </subset>
 
 
