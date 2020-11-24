@@ -82,9 +82,9 @@ Batocera: nadenislamarre
   <subset name="   Colorset" displayName="${subset.Colorset}">
    <include name="Orange" displayName="${Orange}">./art/sistemas/colors/orange.xml</include>
    <include name="Red" displayName="${red}">./art/sistemas/colors/red.xml</include>
-    <include name="blue" displayName="${blue}">./art/sistemas/colors/blue.xml</include>
-    <include name="green" displayName="${green}">./art/sistemas/colors/green.xml</include>  
-    <include name="yellow" displayName="${yellow}">./art/sistemas/colors/yellow.xml</include>
+    <include name="Blue" displayName="${blue}">./art/sistemas/colors/blue.xml</include>
+    <include name="Green" displayName="${green}">./art/sistemas/colors/green.xml</include>  
+    <include name="Yellow" displayName="${yellow}">./art/sistemas/colors/yellow.xml</include>
     <include name="Black" displayName="${Black}">./art/sistemas/colors/Black.xml</include>
     <include name="Grey" displayName="${Grey}">./art/sistemas/colors/grey.xml</include>
 </subset>
@@ -331,27 +331,18 @@ Batocera: nadenislamarre
 <menuText name="menutitle">
 <fontPath>./art/fuentes/Sansation_Light.ttf</fontPath>
 <fontSize>0.028</fontSize>
-<color>ffffff</color>
 </menuText>
 <menuText name="menufooter">
 <fontPath>./art/fuentes/Sansation_Light.ttf</fontPath>
 <fontSize>0.02</fontSize>
-<color>ffffff</color>
 </menuText>
 <menuText name="menutext">
 <fontPath>./art/fuentes/Sansation_Light.ttf</fontPath>
 <fontSize>0.028</fontSize>
-<color>ffffff</color>
-<separatorColor>323232FF</separatorColor>
-<selectorColor>${baseColor}</selectorColor>
-<selectorColorEnd>${gradientEndColor}</selectorColorEnd>
-<selectedColor>ffffff</selectedColor>
-<selectorGradientType>horizontal</selectorGradientType>
 </menuText>
 <menuTextSmall name="menutextsmall">
 <fontPath>./art/fuentes/Sansation_Light.ttf</fontPath>
 <fontSize>0.03</fontSize>
-<color>${baseColor}</color>
 </menuTextSmall>
 <menuBackground name="menubg">
 <color>c5bdb2</color>

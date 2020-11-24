@@ -9,4 +9,27 @@
     <glowColor>8B711520</glowColor>
     <systemInfoColor>FAFAFFB0</systemInfoColor>
   </variables>
+  
+  <view name="menu">
+  <menuText name="menutitle">
+<color>ffffff</color>
+</menuText>
+
+<menuText name="menufooter">
+<color>ffffff</color>
+</menuText>
+
+<menuText name="menutext">
+<color>FAFAFA</color>
+<separatorColor>ffffff</separatorColor>
+<selectorColor>${baseColor}</selectorColor>
+<selectorColorEnd>${gradientEndColor}</selectorColorEnd>
+<selectedColor>FF8000</selectedColor>
+<selectorGradientType>horizontal</selectorGradientType>
+</menuText>
+
+<menuTextSmall name="menutextsmall">
+<color>ffffff</color>
+</menuTextSmall>
+  </view>
 </theme>
