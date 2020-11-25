@@ -14,7 +14,6 @@
           <animation property="rotation" from="0" to="720" begin="32000" duration="1000" mode="easeOut"/>
            <animation property="rotation" from="0" to="720" begin="36000" duration="1000" mode="easeOut"/>
             <animation property="rotation" from="0" to="720" begin="40000" duration="1000" mode="easeOut"/>
-            
    </storyboard>
 </image>
 
@@ -25,5 +24,11 @@
 <image name="personaje3" extra="true">
 <visible>flase</visible>
 </image>
+<text name="systemInfo">
+<storyboard repeat="0">  
+<animation property="opacity" from="0" to="10" duration="2950" mode="easeIn"/> 
+<animation property="opacity" from="0" to="10" duration="2950" begin="8000" mode="easeIn"/>
+</storyboard>
+</text>
 </view>
 </theme>
