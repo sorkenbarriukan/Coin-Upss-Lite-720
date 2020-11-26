@@ -4,7 +4,7 @@
 <view name="system, basic, detailed, grid">
 <image name="background3" extra="true">
 <storyboard repeat="0">
-<animation property="x" from="0" to="-0.01" duration="90" autoreverse="true"/>
+<animation property="x" from="0" to="-0.01" duration="90" autoreverse="true" repeat="0"/>
 </storyboard>
 </image>
 </view>
