@@ -1,14 +1,31 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<theme defaultView="Carusel arcade grande">
-<formatVersion>7</formatVersion>
  <!--
 Theme: COIN-UPSS-Lite
 ES: Fabrice CARUSO
 Batocera: nadenislamarre
 -->
+<theme defaultView="Carusel arcade grande">
+<formatVersion>7</formatVersion>
+
+<variables>
+<systemViewName>System view</systemViewName>
+<ShowCharactersName>Show Characters</ShowCharactersName>
+<MarqueeStyleName>Marquee Style</MarqueeStyleName>
+<systemViewExInfos>Show system InfoEx</systemViewExInfos> 
+<subset.Logosoncarousel>Change Logos On Carousel</subset.Logosoncarousel>
+<subset.systembackground>Animation Background</subset.systembackground>
+<subset.shader>Shader</subset.shader>
+ <subset.colorset>Colorset</subset.colorset>
+ <subset.SoundsSystem>Select Sounds On System</subset.SoundsSystem>
+ <subset.SoundsGrid>Select Sounds On Grid</subset.SoundsGrid>
+<subset.AnimationsSystemVideo>Animations System Video</subset.AnimationsSystemVideo>
+<subset.AnimationsSystemCharacter>Animations System Character</subset.AnimationsSystemCharacter>
+<subset.AnimationsGridVideo>Animations Grid Video</subset.AnimationsGridVideo>
+<subset.AnimationsGridCharacter>Animations Grid Character</subset.AnimationsGridCharacter>
+</variables>
 
 <!-- Modos de Vistas en sistema -->
-<subset name="   Systemview" displayName="${systemViewName}">
+<subset name="Systemview" displayName="${systemViewName}">
 <include name="Carusel arcade grande">./art/systemview/arcade grande no scanline vertical.xml</include>
 <include name="Ruleta left glass scrach">./art/systemview/ruleta left glass scrach.xml</include>
 <include name="Ruleta left glass video  rotation">./art/systemview/ruleta left glass scrach video rotation.xml</include>
@@ -25,24 +42,24 @@ Batocera: nadenislamarre
 </subset>
 
 <!--Show  Personajes-->
-<subset name="   Show  Characters" displayName="${subset.   Show  Characters}">
-   <include name="None" displayName="${yes}">./art/sistemas/storyboards/no Activate characters.xml</include>
-    <include name="yes" displayName="${yes}">./art/sistemas/storyboards/characters.xml</include>
+<subset name="ShowCharacters" displayName="${ShowCharactersName}">
+<include name="None" displayName="${yes}">./art/sistemas/storyboards/no Activate characters.xml</include>
+<include name="yes" displayName="${yes}">./art/sistemas/storyboards/characters.xml</include>
 </subset>
 
 
 <!--logos-->
-<subset name="   Change Logos on carousel" displayName="${subset.   Change Logos on carousel}">
-   <include name="Ticket" displayName="${no}">./art/sistemas/storyboards/logos/ticket.xml</include>
- <include name="Silverring" displayName="${no}">./art/sistemas/storyboards/logos/silverring.xml</include>  
- <include name="Marquee" displayName="${no}">./art/sistemas/storyboards/logos/marquee.xml</include> 
- <include name="Cartridge Nes" displayName="${no}">./art/sistemas/storyboards/logos/nes.xml</include>
- <include name="Consoles" displayName="${no}">./art/sistemas/storyboards/logos/consoles.xml</include>     
+ <subset name="Logosoncarousel" displayName="${logosoncarouselName}">
+<include name="Ticket" displayName="${no}">./art/sistemas/storyboards/logos/ticket.xml</include>
+<include name="Silverring" displayName="${no}">./art/sistemas/storyboards/logos/silverring.xml</include>  
+<include name="Marquee" displayName="${no}">./art/sistemas/storyboards/logos/marquee.xml</include> 
+<include name="Cartridge Nes" displayName="${no}">./art/sistemas/storyboards/logos/nes.xml</include>
+<include name="Consoles" displayName="${no}">./art/sistemas/storyboards/logos/consoles.xml</include>     
 </subset>
 
 
 <!--Animate Backfrownd-->
-<subset name="   Animate Backfrownd" displayName="${subset.   Animate Backfrownd}">
+ <subset name="systembackground" displayName="${systemBackgroundName}">
 <include name="None" displayName="${yes}">./art/sistemas/storyboards/backgrownd/none.xml</include>
 <include name="bump" displayName="${yes}">./art/sistemas/storyboards/backgrownd/bump.xml</include>
 <include name="blink" displayName="${yes}">./art/sistemas/storyboards/backgrownd/blink.xml</include>
@@ -60,7 +77,7 @@ Batocera: nadenislamarre
 
  
 <!--systemInfoEx-->
-<subset name="   Show system Info Ex" displayName="${systemViewExInfos}" tinyScreen="false">
+<subset name="ShowsystemInfoEx" displayName="${systemViewExInfos}" tinyScreen="false">
 <include name="no" displayName="${no}"/>
 <include name="Games played" displayName="${yes}">./art/sistemas/storyboards/systemInfoEx/Games played.xml</include>
 <include name="Games Total" displayName="${yes}">./art/sistemas/storyboards/systemInfoEx/Total.xml</include>
@@ -72,25 +89,25 @@ Batocera: nadenislamarre
 </subset>
 
 <!--tipo de marquesina -->
-<subset name="   Marquee Style" displayName="${subset.Marquee Style}">
+ <subset name="MarqueeStyle" displayName="${MarqueeStyleName}">
 <include name="Logos">./art/sistemas/storyboards/menu/logo/silverring.xml</include>
 <include name="marquee">./art/sistemas/storyboards/menu/logo/marquee.xml</include>
 <include name="ticket">./art/sistemas/storyboards/menu/logo/ticket.xml</include>
 </subset>
 
 <!--color en efectos y texto -->
-  <subset name="   Colorset" displayName="${subset.Colorset}">
-   <include name="Orange" displayName="${Orange}">./art/sistemas/colors/orange.xml</include>
-   <include name="Red" displayName="${red}">./art/sistemas/colors/red.xml</include>
-    <include name="Blue" displayName="${blue}">./art/sistemas/colors/blue.xml</include>
-    <include name="Green" displayName="${green}">./art/sistemas/colors/green.xml</include>  
-    <include name="Yellow" displayName="${yellow}">./art/sistemas/colors/yellow.xml</include>
-    <include name="Black" displayName="${Black}">./art/sistemas/colors/Black.xml</include>
-    <include name="Grey" displayName="${Grey}">./art/sistemas/colors/grey.xml</include>
+<subset name="Colorset" displayName="${subset.colorset}">
+<include name="Orange" displayName="${Orange}">./art/sistemas/colors/orange.xml</include>
+<include name="Red" displayName="${red}">./art/sistemas/colors/red.xml</include>
+<include name="Blue" displayName="${blue}">./art/sistemas/colors/blue.xml</include>
+<include name="Green" displayName="${green}">./art/sistemas/colors/green.xml</include>  
+<include name="Yellow" displayName="${yellow}">./art/sistemas/colors/yellow.xml</include>
+<include name="Black" displayName="${Black}">./art/sistemas/colors/Black.xml</include>
+<include name="Grey" displayName="${Grey}">./art/sistemas/colors/grey.xml</include>
 </subset>
 
 <!--Efectos en pantalla encima de todo -->
-<subset name="   Shader" displayName="${subset.Shader}">
+<subset name="Shader" displayName="${subset.shader}">
 <include name="None" displayName="${none}"/>
 <include name="Crt">./art/sistemas/shader/crt.xml</include>
 <include name="ScanLines">./art/sistemas/shader/scanlines.xml</include>
@@ -106,7 +123,7 @@ Batocera: nadenislamarre
 </subset>
 
 <!--sonidos de navegacion en system-->
-<subset name="   Sounds  Navigation  On  System" displayName="${subset.   Sounds  Navigation  On  System}">
+<subset name="SoundsSystem" displayName="${subset.SoundsSystem}">
 <include name="None" displayName="${none}"/>
 <include name="dkJump">./art/sistemas/sounds navigation/dkjump.xml</include>
 <include name="smwactivated">./art/sistemas/sounds navigation/smw activated.xml</include>
@@ -146,7 +163,7 @@ Batocera: nadenislamarre
 </subset>
 
 <!--sonidos de navegacion para grid & gamelist -->
-<subset name="   Sounds  Navigation  On  Grid" displayName="${subset.   Sounds  Navigation  On  Grid}">
+<subset name="SoundsGrid" displayName="${subset.SoundsGrid}">
 <include name="None" displayName="${none}"/>
 <include name="dkJump">./art/sistemas/sounds navigation/sndgrid/dkjump.xml</include>
 <include name="smwactivated">./art/sistemas/sounds navigation/sndgrid/smw activated.xml</include>
@@ -187,7 +204,7 @@ Batocera: nadenislamarre
 
 
 <!--storyboards  System Video-->
-<subset name="   Animations   System  Video" displayName="${subset.  Animations  System Video}">
+<subset name="AnimationsSystemVideo" displayName="${subset.AnimationsSystemVideo}">
 <include name="None" displayName="${none}"/>
 <include name="easeOutCubic">./art/sistemas/storyboards/system/video/easeOutCubic.xml</include>
 <include name="From Left">./art/sistemas/storyboards/system/video/From Left.xml</include>
@@ -200,7 +217,7 @@ Batocera: nadenislamarre
 <include name="Sacudida">./art/sistemas/storyboards/system/video/sacudida.xml</include>
 </subset>
 <!--storyboards  System Character-->
-<subset name="   Animations   System  Character" displayName="${subset.  Animations   System  Character}">
+<subset name="AnimationsSystemCharacter" displayName="${subset.AnimationsSystemCharacter}">
 <include name="None">./art/sistemas/storyboards/system/character/default.xml</include>
 <include name="Giro">./art/sistemas/storyboards/system/character/giro.xml</include>
 <include name="Acople">./art/sistemas/storyboards/system/character/acople.xml</include>
@@ -225,7 +242,7 @@ Batocera: nadenislamarre
 </subset>
 
 <!--storyboards  Menu Video-->
-<subset name="   Animations  Menu  Video" displayName="${subset.   Animations  Menu  Video}">
+<subset name="AnimationsGridVideo" displayName="${subset.AnimationsGridVideo}">
 <include name="None" displayName="${none}"/>
 <include name="easeOutCubic">./art/sistemas/storyboards/menu/video/easeOutCubic.xml</include>
 <include name="From Left">./art/sistemas/storyboards/menu/video/From Left.xml</include>
@@ -237,7 +254,7 @@ Batocera: nadenislamarre
 <include name="From right Slow">./art/sistemas/storyboards/menu/video/From right Slow.xml</include>
 </subset>
 <!--storyboards  Menu Character-->
-<subset name="   Animations  Menu   Character" displayName="${subset.   Animations   Menu   Character}">
+<subset name="AnimationsGridCharacter" displayName="${subset.AnimationsGridCharacter}">
 <include name="None">./art/sistemas/storyboards/menu/character/default.xml</include>
 <include name="Giro">./art/sistemas/storyboards/menu/character/giro.xml</include>
 <include name="Acople">./art/sistemas/storyboards/menu/character/acople.xml</include>
