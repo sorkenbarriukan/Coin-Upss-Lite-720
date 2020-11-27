@@ -9,6 +9,10 @@
 		</splash>
 
 		<image name="background">
+		<tile>true</tile>
+		<size>1 1</size>
+<pos>0 0</pos>
+<origin>0 0</origin>
 	    	<path>./art/loading.png</path>
 		</image>
 				
@@ -29,8 +33,8 @@
 		</text>
 		
 		<image name="progressbar:active">
-			<color>ffffff95</color>
-			<pos>0.250 0.575</pos>
+			<color>ffffff97</color>
+			<pos>0.252 0.574</pos>
 			<size>-0.08 -0.386</size>
 			<rotation>0</rotation>
 			<rotationOrigin>1.1 1.6</rotationOrigin>
