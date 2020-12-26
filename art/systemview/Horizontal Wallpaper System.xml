@@ -4,7 +4,7 @@
 
   
 <view name="system">
-<image name="background" extra="true">
+<image name="background1" extra="true">
 <color>000000FF</color>
 </image>
   

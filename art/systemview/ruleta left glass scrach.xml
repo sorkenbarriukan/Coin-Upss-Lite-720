@@ -2,7 +2,7 @@
 <theme>
 <formatVersion>7</formatVersion>
 <view name="system">
-<image name="background" extra="true">
+<image name="fondotv" extra="true">
 <tile>false</tile>
 <pos>0.6500 0.485</pos>
 <origin>0.5 0.5</origin>
