@@ -118,12 +118,12 @@
 		<defaultTransition>instant</defaultTransition>
         <type>horizontal</type>
         <rotation>-05</rotation>
-        <pos>0.066 -0.40</pos>
+        <pos>0 -0.40</pos>
         <size>1 1</size>
         <logoScale>1.80</logoScale>
         <logoSize>0.15 0.08</logoSize>
         <color>00000000</color>
-        <maxLogoCount>1</maxLogoCount>
+        <maxLogoCount>10</maxLogoCount>
         <logoRotation>-3</logoRotation>
 		<logoRotationOrigin>-5.0 0.5</logoRotationOrigin>
 		<logoAlignment>center</logoAlignment>   
@@ -163,11 +163,6 @@
 <path>./art/sistemas/ticket/${system.theme}.png</path>
 <path>./${system.theme}/art/system-${lang}.png</path>
 <path>./${system.theme}/art/system-${lang}.svg</path>
-<storyboard event="activate">     
-<animation property="w" from="0" begin="0" duration="1450" autoreverse="true" mode="easeOut" begin="4000" repeat="0"/>
-</storyboard>
-
-
 </image>
 </view>
 </theme>
