@@ -347,7 +347,7 @@ Batocera: nadenislamarre
 <view name="menu">
 <menuText name="menutitle">
 <fontPath>./art/fuentes/Pixel LCD-7.ttf</fontPath>
-<fontSize>0.028</fontSize>
+<fontSize>0.020</fontSize>
 </menuText>
 <menuText name="menufooter">
 <fontPath>./art/fuentes/Pixel LCD-7.ttf</fontPath>
@@ -355,7 +355,7 @@ Batocera: nadenislamarre
 </menuText>
 <menuText name="menutext">
 <fontPath>./art/fuentes/Pixel LCD-7.ttf</fontPath>
-<fontSize>0.028</fontSize>
+<fontSize>0.020</fontSize>
 </menuText>
 <menuTextSmall name="menutextsmall">
 <fontPath>./art/fuentes/Pixel LCD-7.ttf</fontPath>
@@ -1682,15 +1682,15 @@ Batocera: nadenislamarre
 <zIndex>20</zIndex>
 </text>
 <image name="logo">
-<pos>0.290 0.118</pos>
-<size>0.430 0.180</size>
+<pos>0.287 0.125</pos>
+<size>0.430 0.210</size>
 <origin>0.5 0.5</origin>
 <zIndex>20</zIndex>
 </image>
 
 <image name="md_marquee">
-<pos>0.290 0.118</pos>
-<size>0.430 0.180</size>
+<pos>0.287 0.125</pos>
+<size>0.430 0.210</size>
 <origin>0.5 0.5</origin>
 <zIndex>20</zIndex>
 </image>	
@@ -1731,7 +1731,6 @@ Batocera: nadenislamarre
 <zIndex>200</zIndex>
 </image>
 </customView>
-
 
 
 <customView name="Cabin + Wheel  Left" inherits="gamecarousel" displayName="${gridDetailsViewName}">
@@ -1900,8 +1899,8 @@ Batocera: nadenislamarre
 </helpsystem>
 
  <text name="logoText">
-<pos>0.727 0.118</pos>
-<size>0.430 0.180</size>
+<pos>0.727 0.120</pos>
+<size>0.430 0.210</size>
 <origin>0.5 0.5</origin>
 <alignment>center</alignment>
 <fontSize>0.08</fontSize>
@@ -1909,9 +1908,10 @@ Batocera: nadenislamarre
 <color>00000000</color>
 <zIndex>20</zIndex>
 </text>
+
 <image name="logo">
-<pos>0.727 0.118</pos>
-<size>0.430 0.180</size>
+<pos>0.727 0.120</pos>
+<size>0.430 0.210</size>
 <origin>0.5 0.5</origin>
 <zIndex>20</zIndex>
 </image>
@@ -1929,8 +1929,8 @@ Batocera: nadenislamarre
 </video>
     
 <image name="md_marquee">
-<pos>0.727 0.118</pos>
-<size>0.430 0.180</size>
+<pos>0.727 0.120</pos>
+<size>0.430 0.210</size>
 <origin>0.5 0.5</origin>
 <zIndex>20</zIndex>
 </image>	
@@ -1941,6 +1941,14 @@ Batocera: nadenislamarre
 <size>0.460 0.210</size>
 <origin>0.5 0.5</origin>
 <zIndex>18</zIndex>
+</image>
+
+<image name="glass" extra="true">
+<path>./art/fondos/fondo video ruleta.png</path>
+<pos>0.730 0.125</pos>
+<size>0.460 0.210</size>
+<origin>0.5 0.5</origin>
+<zIndex>30</zIndex>
 </image>
 
 <image name="md_flag"> 
@@ -4312,13 +4320,13 @@ Batocera: nadenislamarre
 </customView>
 
 
-<customView name="Hyperspin" inherits="grid" displayName="${gridDetailsViewName}">
+<customView name="Hyperspin" inherits="gamecarousel" displayName="${gridDetailsViewName}">
 <image name="background" extra="true">
 <tile>false</tile>
 <size>1 1</size>
 <pos>0 0</pos>
 <origin>0 0</origin>
-<path>./art/fondos/fondo hypM.png</path>
+<path>./art/fondos/fondo hypS.png</path>
 <zIndex>10</zIndex>
 </image>
 
@@ -4359,7 +4367,7 @@ Batocera: nadenislamarre
 <size>0.30 0.993</size>
 <padding>0.08 0 0.08 0</padding>
 <scrollDirection>vertical</scrollDirection>
-<autoLayout>1 10</autoLayout>
+<autoLayout>1 9</autoLayout>
 <imageSource>marquee</imageSource>
 <autoLayoutSelectedZoom>1.69</autoLayoutSelectedZoom>
 <margin>0 0.025</margin>
@@ -4431,6 +4439,19 @@ Batocera: nadenislamarre
 <zIndex>20</zIndex>
 </image>
 
+  <image name="md_thumbnail">
+<origin>0.9 0.5</origin>
+<pos>0.10 0.80</pos>
+<maxSize>0.11 0.24</maxSize>
+<color>808080</color>
+<zIndex>90</zIndex>
+<linearSmooth>true</linearSmooth>
+<storyboard repeat="forever">
+<animation property="y" from="0.76" begin="0" duration="4450" autoreverse="true" mode="easeOut" begin="4000" repeat="0"/>
+<animation property="w" from="0.11" begin="2450" duration="4450" autoreverse="true" mode="easeOut" begin="4000" repeat="0"/>
+</storyboard> 
+</image>
+
 <image name="consola" extra="true">
 <path>./art/sistemas/consoles/default.png</path>
 <path>./art/sistemas/consoles/${system.theme}.png</path>
@@ -4459,6 +4480,7 @@ Batocera: nadenislamarre
 </image>
 
 <image name="personaje2" extra="true">
+<visible>false</visible>
 <path>./art/sistemas/character/default.png</path>
 <path>./art/sistemas/character/${system.theme}.png</path>
 <origin>0 0</origin>
@@ -4470,12 +4492,26 @@ Batocera: nadenislamarre
 <zIndex>60</zIndex>
 </image>
 
+<image name="personaje3" extra="true">
+<visible>false</visible>
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>FE2EF7</color>
+<origin>0 0</origin>
+<pos>0.480 0.2560</pos>
+<size>0.2095 0.7055</size>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>61</zIndex>
+</image>
+
 <image name="md_image">
 <visible>true</visible>
 <pos>0.3086 0.508</pos>
 <origin>0.5 0.5</origin>
 <size>0.4470 0.449</size>
-<roundCorners>0.04.7</roundCorners>
+<roundCorners>0</roundCorners>
 <zIndex>28</zIndex>
 </image>
 
@@ -4499,25 +4535,30 @@ Batocera: nadenislamarre
 
 <text name="logoText">
 <pos>0.315 0.170</pos>
-<size>0.250 0.120</size>
+<size>0.200 0.130</size>
 <origin>0.5 0.5</origin>
 <alignment>center</alignment>
 <fontSize>0.08</fontSize>
 <fontPath>./art/fuentes/Bebas Neue.ttf</fontPath>
 <color>00000000</color>
 </text>
-<image name="logo">
-<pos>0.315 0.170</pos>
-<size>0.250 0.120</size>
-<origin>0.5 0.5</origin>
-</image>
 
 <image name="md_marquee">
 <pos>0.315 0.170</pos>
-<size>0.250 0.120</size>
+<size>0.200 0.130</size>
 <origin>0.5 0.5</origin>
 <zIndex>90</zIndex>
+<storyboard repeat="forever">
+<animation property="y" from="0.156" begin="0" duration="3450" autoreverse="true" mode="easeOut" begin="4000" repeat="0"/>
+<animation property="w" from="0.0.315" begin="2450" duration="4450" autoreverse="true" mode="easeOut" begin="4000" repeat="0"/>
+</storyboard> 
 </image>	
+
+<image name="logo">
+<pos>0.315 0.170</pos>
+<size>0.200 0.130</size>
+<origin>0.5 0.5</origin>
+</image>
 
 <image name="md_flag"> 
 <visible>true</visible>
