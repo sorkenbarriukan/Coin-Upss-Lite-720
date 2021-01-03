@@ -13,7 +13,7 @@
 </image>
 
 <image name="personaje3" extra="true">
-<visible>flase</visible>
+<visible>false</visible>
 </image>
 <text name="systemInfo">
 <storyboard repeat="0">  
