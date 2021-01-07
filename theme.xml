@@ -44,7 +44,7 @@ Batocera: nadenislamarre
 <include name="Mini">./art/systemview/mini.xml</include>
 <include name="PandoraBox">./art/systemview/pandora.xml</include>
 <include name="PandoraBox 2">./art/systemview/pandora2.xml</include>
-<include name="Calssic">./art/systemview/classic.xml</include>
+<include name="Classic">./art/systemview/classic.xml</include>
 </subset>
 
 <!--Show  Info-->
@@ -456,6 +456,9 @@ Batocera: nadenislamarre
 <pos>0.0190 0.950</pos>
 <maxSize>0.025 0.018</maxSize>
 <zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
 <image name="personaje" extra="true">
@@ -581,6 +584,9 @@ Batocera: nadenislamarre
 <pos>0.0190 0.950</pos>
 <maxSize>0.025 0.018</maxSize>
 <zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
 <video name="md_video">
@@ -925,6 +931,9 @@ Batocera: nadenislamarre
 <pos>0.0190 0.950</pos>
 <maxSize>0.025 0.018</maxSize>
 <zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
 <rating name="md_rating">
@@ -975,6 +984,9 @@ Batocera: nadenislamarre
 <pos>0.0190 0.950</pos>
 <maxSize>0.025 0.018</maxSize>
 <zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
     
 <image name="predeterminado" extra="true">
@@ -1241,6 +1253,9 @@ Batocera: nadenislamarre
 <pos>0.0190 0.950</pos>
 <maxSize>0.025 0.018</maxSize>
 <zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
 <image name="background3" extra="true">
@@ -1760,6 +1775,9 @@ Batocera: nadenislamarre
 <pos>0.0190 0.950</pos>
 <maxSize>0.025 0.018</maxSize>
 <zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 </customView>
 
@@ -1988,6 +2006,9 @@ Batocera: nadenislamarre
 <pos>0.0190 0.950</pos>
 <maxSize>0.025 0.018</maxSize>
 <zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 </customView>
 
@@ -2193,6 +2214,9 @@ Batocera: nadenislamarre
 <pos>0.0190 0.950</pos>
 <maxSize>0.025 0.018</maxSize>
 <zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
 <rating name="md_rating">
@@ -2372,6 +2396,9 @@ Batocera: nadenislamarre
 <pos>0.0190 0.950</pos>
 <maxSize>0.025 0.018</maxSize>
 <zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
  <rating name="md_rating">
@@ -2551,6 +2578,9 @@ Batocera: nadenislamarre
 <pos>0.0190 0.950</pos>
 <maxSize>0.025 0.018</maxSize>
 <zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
  <rating name="md_rating">
@@ -2764,6 +2794,9 @@ Batocera: nadenislamarre
 <pos>0.0190 0.950</pos>
 <maxSize>0.025 0.018</maxSize>
 <zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
  <rating name="md_rating">
@@ -2977,6 +3010,9 @@ Batocera: nadenislamarre
 <pos>0.0190 0.950</pos>
 <maxSize>0.025 0.018</maxSize>
 <zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
 <rating name="md_rating">
@@ -3166,6 +3202,9 @@ Batocera: nadenislamarre
 <pos>0.0190 0.950</pos>
 <maxSize>0.025 0.018</maxSize>
 <zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
  <rating name="md_rating">
@@ -3486,6 +3525,9 @@ Batocera: nadenislamarre
 <pos>0.0190 0.950</pos>
 <maxSize>0.025 0.018</maxSize>
 <zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
  <rating name="md_rating">
@@ -3671,6 +3713,9 @@ Batocera: nadenislamarre
 <pos>0.0190 0.950</pos>
 <maxSize>0.025 0.018</maxSize>
 <zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
  <rating name="md_rating">
@@ -3891,6 +3936,9 @@ Batocera: nadenislamarre
 <pos>0.0190 0.950</pos>
 <maxSize>0.025 0.018</maxSize>
 <zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
  <rating name="md_rating">
@@ -4095,6 +4143,9 @@ Batocera: nadenislamarre
 <pos>0.0190 0.950</pos>
 <maxSize>0.025 0.018</maxSize>
 <zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
  <rating name="md_rating">
@@ -4339,6 +4390,9 @@ Batocera: nadenislamarre
 <pos>0.0190 0.950</pos>
 <maxSize>0.025 0.018</maxSize>
 <zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
  <rating name="md_rating">
@@ -4597,6 +4651,9 @@ Batocera: nadenislamarre
 <pos>0.0190 0.950</pos>
 <maxSize>0.025 0.018</maxSize>
 <zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
  <rating name="md_rating">
@@ -4832,6 +4889,9 @@ Batocera: nadenislamarre
 <pos>0.0190 0.950</pos>
 <maxSize>0.025 0.018</maxSize>
 <zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
  <rating name="md_rating">
@@ -5069,6 +5129,9 @@ Batocera: nadenislamarre
 <pos>0.0190 0.950</pos>
 <maxSize>0.025 0.018</maxSize>
 <zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
  <rating name="md_rating">
@@ -5317,6 +5380,9 @@ Batocera: nadenislamarre
 <pos>0.0190 0.950</pos>
 <maxSize>0.025 0.018</maxSize>
 <zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
  <rating name="md_rating">
@@ -5557,6 +5623,9 @@ Batocera: nadenislamarre
 <pos>0.0190 0.950</pos>
 <maxSize>0.025 0.018</maxSize>
 <zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
  <rating name="md_rating">
@@ -5881,6 +5950,9 @@ Batocera: nadenislamarre
 <pos>0.0190 0.950</pos>
 <maxSize>0.025 0.018</maxSize>
 <zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
  <rating name="md_rating">
@@ -6184,6 +6256,9 @@ Batocera: nadenislamarre
 <pos>0.0190 0.950</pos>
 <maxSize>0.025 0.018</maxSize>
 <zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
  <rating name="md_rating">
@@ -6397,6 +6472,9 @@ Batocera: nadenislamarre
 <pos>0.0190 0.950</pos>
 <maxSize>0.025 0.018</maxSize>
 <zIndex>200</zIndex>
+<storyboard repeat="forever">
+<animation property="rotation" from="-13" to="13" duration="100" autoreverse="true" begin="6000" repeat="3"/>
+</storyboard>  
 </image>
 
  <rating name="md_rating">

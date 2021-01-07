@@ -95,6 +95,13 @@
 <glowSize>2</glowSize>
 <reflexion>0.50 0.0</reflexion>
 </text>
+       
+<text name="sys_info" extra="true">
+<visible>false</visible>
+</text>
+<text name="sys_description" extra="true">
+<visible>false</visible>
+</text>
         
 <helpsystem name="help">
 <visible>false</visible>
