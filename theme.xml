@@ -9,6 +9,7 @@ Batocera: nadenislamarre
 
 <variables>
 <systemViewName>System view</systemViewName>
+<infoName>Change Lenguage Info Only For Classic View</infoName>
 <ShowCharactersName>Show Characters</ShowCharactersName>
 <MarqueeStyleName>Marquee Style</MarqueeStyleName>
 <systemViewExInfos>Show system InfoEx</systemViewExInfos> 
@@ -44,6 +45,16 @@ Batocera: nadenislamarre
 <include name="PandoraBox">./art/systemview/pandora.xml</include>
 <include name="PandoraBox 2">./art/systemview/pandora2.xml</include>
 <include name="Calssic">./art/systemview/classic.xml</include>
+</subset>
+
+<!--Show  Info-->
+ <subset name="info" displayName="${infoName}">
+<include name="English Default" displayName="${yes}">./art/sistemas/infosys/en/${system.theme}.xml</include>
+<include name="Espanol" displayName="${yes}">./art/sistemas/infosys/es/${system.theme}.xml</include>
+<include name="Arabe" displayName="${yes}">./art/sistemas/infosys/ar/${system.theme}.xml</include>
+<include name="Français" displayName="${yes}">./art/sistemas/infosys/fr/${system.theme}.xml</include>
+<include name="Italien" displayName="${yes}">./art/sistemas/infosys/it/${system.theme}.xml</include>
+<include name="portuguese" displayName="${yes}">./art/sistemas/infosys/pt/${system.theme}.xml</include>
 </subset>
 
 <!--Show  Personajes-->
