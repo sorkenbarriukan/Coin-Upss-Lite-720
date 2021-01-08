@@ -270,6 +270,7 @@ Batocera: nadenislamarre
 <include name="Extender hacia abajo">./art/sistemas/storyboards/system/character/Vuelta centro.xml</include>
 <include name="Stretch left">./art/sistemas/storyboards/system/character/Stretch right.xml</include>
 <include name="Stretch left&Up">./art/sistemas/storyboards/system/character/Stretch left&Up.xml</include>
+<include name="Glitch">./art/sistemas/storyboards/system/character/glitch.xml</include>
 </subset>
 
 <!--storyboards  Menu Video-->
@@ -1394,13 +1395,11 @@ Batocera: nadenislamarre
 <reflexion>0.50 0.0</reflexion>
 <zIndex>92</zIndex>
 </image>
-
-  </customView>
+</customView>
   
  
    
 <!---------------------------Logos------------------------------------- -->
-
 <view name="gamecarousel">
 <gamecarousel name="gamecarousel">
 <zIndex>43</zIndex>	      
@@ -1506,6 +1505,7 @@ Batocera: nadenislamarre
 <zIndex>90</zIndex>
 </image>
 
+
 <image name="personaje" extra="true">
 <path>./art/sistemas/character/default.png</path>
 <path>./art/sistemas/character/${system.theme}.png</path>
@@ -1513,10 +1513,38 @@ Batocera: nadenislamarre
 <origin>0 0</origin>
 <pos>0.4850 0.2567</pos>
 <size>0.2295 0.7155</size>
-<storyboard>       
-       <animation property="x" from="1.01" begin="0" duration="2250" mode="easeOut"/>    
-</storyboard>
-<zIndex>60</zIndex>
+<glowColor>000000</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>82</zIndex>
+</image>
+
+<image name="personaje2" extra="true">
+<visible>false</visible>
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>2EFE2E</color>
+<origin>0 0</origin>
+<pos>0.4850 0.2567</pos>
+<size>0.2295 0.7155</size>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>80</zIndex>
+</image>
+
+<image name="personaje3" extra="true">
+<visible>false</visible>
+<path>./art/sistemas/character/default.png</path>
+<path>./art/sistemas/character/${system.theme}.png</path>
+<color>FE2EF7</color>
+<origin>0 0</origin>
+<pos>0.4850 0.2567</pos>
+<size>0.2295 0.7155</size>
+<glowColor>ffffff60</glowColor>
+<glowSize>2</glowSize>
+<reflexion>0.50 0.0</reflexion>
+<zIndex>81</zIndex>
 </image>
 
 <helpsystem name="help">
@@ -6075,8 +6103,8 @@ Batocera: nadenislamarre
 <path>./art/sistemas/character/${system.theme}.png</path>
 <color>2EFE2E</color>
 <origin>0 0</origin>
-<pos>0.340 0.5460</pos>
-<size>0.080 0.255</size>
+<pos>0.380 0.3060</pos>
+<size>0.200 0.665</size>
 <glowColor>ffffff60</glowColor>
 <glowSize>2</glowSize>
 <reflexion>0.50 0.0</reflexion>
@@ -6088,8 +6116,8 @@ Batocera: nadenislamarre
 <path>./art/sistemas/character/${system.theme}.png</path>
 <color>FE2EF7</color>
 <origin>0 0</origin>
-<pos>0.340 0.5460</pos>
-<size>0.080 0.255</size>
+<pos>0.380 0.3060</pos>
+<size>0.200 0.665</size>
 <glowColor>ffffff60</glowColor>
 <glowSize>2</glowSize>
 <reflexion>0.50 0.0</reflexion>
