@@ -307,6 +307,7 @@ Batocera: nadenislamarre
 <include name="Extender">./art/sistemas/storyboards/menu/character/Vuelta.xml</include>
 <include name="Extender hacia abajo">./art/sistemas/storyboards/menu/character/Vuelta centro.xml</include>
 <include name="Stretch left">./art/sistemas/storyboards/menu/character/Stretch right.xml</include>
+<include name="Glitch">./art/sistemas/storyboards/menu/character/glitch.xml</include>
 </subset>
 
 <!--system -->
